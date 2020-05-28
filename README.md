@@ -1,2 +1,2 @@
 # PLFM
-Programming Languages and Formal Methods
+HSR Module: Programming Languages and Formal Methods

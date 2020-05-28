@@ -1,0 +1,480 @@
+{
+    "moduleId": "PC",
+    "proofTree": {
+        "path": [],
+        "sequent": {
+            "hypotheses": [],
+            "goals": [
+                {
+                    "type": "Application",
+                    "left": {
+                        "type": "Application",
+                        "left": {
+                            "type": "Variable",
+                            "value": "⇒"
+                        },
+                        "right": {
+                            "type": "InParentheses",
+                            "term": {
+                                "type": "Application",
+                                "left": {
+                                    "type": "Application",
+                                    "left": {
+                                        "type": "Variable",
+                                        "value": "⇒"
+                                    },
+                                    "right": {
+                                        "type": "Variable",
+                                        "value": "B"
+                                    }
+                                },
+                                "right": {
+                                    "type": "Variable",
+                                    "value": "C"
+                                }
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": "InParentheses",
+                        "term": {
+                            "type": "Application",
+                            "left": {
+                                "type": "Application",
+                                "left": {
+                                    "type": "Variable",
+                                    "value": "⇒"
+                                },
+                                "right": {
+                                    "type": "InParentheses",
+                                    "term": {
+                                        "type": "Application",
+                                        "left": {
+                                            "type": "Application",
+                                            "left": {
+                                                "type": "Variable",
+                                                "value": "⇒"
+                                            },
+                                            "right": {
+                                                "type": "Variable",
+                                                "value": "A"
+                                            }
+                                        },
+                                        "right": {
+                                            "type": "Variable",
+                                            "value": "B"
+                                        }
+                                    }
+                                }
+                            },
+                            "right": {
+                                "type": "InParentheses",
+                                "term": {
+                                    "type": "Application",
+                                    "left": {
+                                        "type": "Application",
+                                        "left": {
+                                            "type": "Variable",
+                                            "value": "⇒"
+                                        },
+                                        "right": {
+                                            "type": "Variable",
+                                            "value": "A"
+                                        }
+                                    },
+                                    "right": {
+                                        "type": "Variable",
+                                        "value": "C"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        "appliedProofRule": {
+            "appliedProofRuleName": "⇒goal",
+            "children": [
+                {
+                    "path": [
+                        0
+                    ],
+                    "sequent": {
+                        "hypotheses": [
+                            {
+                                "type": "Application",
+                                "left": {
+                                    "type": "Application",
+                                    "left": {
+                                        "type": "Variable",
+                                        "value": "⇒"
+                                    },
+                                    "right": {
+                                        "type": "Variable",
+                                        "value": "B"
+                                    }
+                                },
+                                "right": {
+                                    "type": "Variable",
+                                    "value": "C"
+                                }
+                            }
+                        ],
+                        "goals": [
+                            {
+                                "type": "Application",
+                                "left": {
+                                    "type": "Application",
+                                    "left": {
+                                        "type": "Variable",
+                                        "value": "⇒"
+                                    },
+                                    "right": {
+                                        "type": "InParentheses",
+                                        "term": {
+                                            "type": "Application",
+                                            "left": {
+                                                "type": "Application",
+                                                "left": {
+                                                    "type": "Variable",
+                                                    "value": "⇒"
+                                                },
+                                                "right": {
+                                                    "type": "Variable",
+                                                    "value": "A"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "Variable",
+                                                "value": "B"
+                                            }
+                                        }
+                                    }
+                                },
+                                "right": {
+                                    "type": "InParentheses",
+                                    "term": {
+                                        "type": "Application",
+                                        "left": {
+                                            "type": "Application",
+                                            "left": {
+                                                "type": "Variable",
+                                                "value": "⇒"
+                                            },
+                                            "right": {
+                                                "type": "Variable",
+                                                "value": "A"
+                                            }
+                                        },
+                                        "right": {
+                                            "type": "Variable",
+                                            "value": "C"
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "appliedProofRule": {
+                        "appliedProofRuleName": "⇒goal",
+                        "children": [
+                            {
+                                "path": [
+                                    0,
+                                    0
+                                ],
+                                "sequent": {
+                                    "hypotheses": [
+                                        {
+                                            "type": "Application",
+                                            "left": {
+                                                "type": "Application",
+                                                "left": {
+                                                    "type": "Variable",
+                                                    "value": "⇒"
+                                                },
+                                                "right": {
+                                                    "type": "Variable",
+                                                    "value": "B"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "Variable",
+                                                "value": "C"
+                                            }
+                                        },
+                                        {
+                                            "type": "Application",
+                                            "left": {
+                                                "type": "Application",
+                                                "left": {
+                                                    "type": "Variable",
+                                                    "value": "⇒"
+                                                },
+                                                "right": {
+                                                    "type": "Variable",
+                                                    "value": "A"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "Variable",
+                                                "value": "B"
+                                            }
+                                        }
+                                    ],
+                                    "goals": [
+                                        {
+                                            "type": "Application",
+                                            "left": {
+                                                "type": "Application",
+                                                "left": {
+                                                    "type": "Variable",
+                                                    "value": "⇒"
+                                                },
+                                                "right": {
+                                                    "type": "Variable",
+                                                    "value": "A"
+                                                }
+                                            },
+                                            "right": {
+                                                "type": "Variable",
+                                                "value": "C"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "appliedProofRule": {
+                                    "appliedProofRuleName": "⇒goal",
+                                    "children": [
+                                        {
+                                            "path": [
+                                                0,
+                                                0,
+                                                0
+                                            ],
+                                            "sequent": {
+                                                "hypotheses": [
+                                                    {
+                                                        "type": "Application",
+                                                        "left": {
+                                                            "type": "Application",
+                                                            "left": {
+                                                                "type": "Variable",
+                                                                "value": "⇒"
+                                                            },
+                                                            "right": {
+                                                                "type": "Variable",
+                                                                "value": "B"
+                                                            }
+                                                        },
+                                                        "right": {
+                                                            "type": "Variable",
+                                                            "value": "C"
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Application",
+                                                        "left": {
+                                                            "type": "Application",
+                                                            "left": {
+                                                                "type": "Variable",
+                                                                "value": "⇒"
+                                                            },
+                                                            "right": {
+                                                                "type": "Variable",
+                                                                "value": "A"
+                                                            }
+                                                        },
+                                                        "right": {
+                                                            "type": "Variable",
+                                                            "value": "B"
+                                                        }
+                                                    },
+                                                    {
+                                                        "type": "Variable",
+                                                        "value": "A"
+                                                    }
+                                                ],
+                                                "goals": [
+                                                    {
+                                                        "type": "Variable",
+                                                        "value": "C"
+                                                    }
+                                                ]
+                                            },
+                                            "appliedProofRule": {
+                                                "appliedProofRuleName": "⇒hyp",
+                                                "children": [
+                                                    {
+                                                        "path": [
+                                                            0,
+                                                            0,
+                                                            0,
+                                                            0
+                                                        ],
+                                                        "sequent": {
+                                                            "hypotheses": [
+                                                                {
+                                                                    "type": "Application",
+                                                                    "left": {
+                                                                        "type": "Application",
+                                                                        "left": {
+                                                                            "type": "Variable",
+                                                                            "value": "⇒"
+                                                                        },
+                                                                        "right": {
+                                                                            "type": "Variable",
+                                                                            "value": "B"
+                                                                        }
+                                                                    },
+                                                                    "right": {
+                                                                        "type": "Variable",
+                                                                        "value": "C"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "Variable",
+                                                                    "value": "A"
+                                                                }
+                                                            ],
+                                                            "goals": [
+                                                                {
+                                                                    "type": "Variable",
+                                                                    "value": "A"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "appliedProofRule": {
+                                                            "appliedProofRuleName": "hyp",
+                                                            "children": []
+                                                        }
+                                                    },
+                                                    {
+                                                        "path": [
+                                                            0,
+                                                            0,
+                                                            0,
+                                                            1
+                                                        ],
+                                                        "sequent": {
+                                                            "hypotheses": [
+                                                                {
+                                                                    "type": "Application",
+                                                                    "left": {
+                                                                        "type": "Application",
+                                                                        "left": {
+                                                                            "type": "Variable",
+                                                                            "value": "⇒"
+                                                                        },
+                                                                        "right": {
+                                                                            "type": "Variable",
+                                                                            "value": "B"
+                                                                        }
+                                                                    },
+                                                                    "right": {
+                                                                        "type": "Variable",
+                                                                        "value": "C"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "type": "Variable",
+                                                                    "value": "A"
+                                                                },
+                                                                {
+                                                                    "type": "Variable",
+                                                                    "value": "B"
+                                                                }
+                                                            ],
+                                                            "goals": [
+                                                                {
+                                                                    "type": "Variable",
+                                                                    "value": "C"
+                                                                }
+                                                            ]
+                                                        },
+                                                        "appliedProofRule": {
+                                                            "appliedProofRuleName": "⇒hyp",
+                                                            "children": [
+                                                                {
+                                                                    "path": [
+                                                                        0,
+                                                                        0,
+                                                                        0,
+                                                                        1,
+                                                                        0
+                                                                    ],
+                                                                    "sequent": {
+                                                                        "hypotheses": [
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "A"
+                                                                            },
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "B"
+                                                                            }
+                                                                        ],
+                                                                        "goals": [
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "B"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "appliedProofRule": {
+                                                                        "appliedProofRuleName": "hyp",
+                                                                        "children": []
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "path": [
+                                                                        0,
+                                                                        0,
+                                                                        0,
+                                                                        1,
+                                                                        1
+                                                                    ],
+                                                                    "sequent": {
+                                                                        "hypotheses": [
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "A"
+                                                                            },
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "B"
+                                                                            },
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "C"
+                                                                            }
+                                                                        ],
+                                                                        "goals": [
+                                                                            {
+                                                                                "type": "Variable",
+                                                                                "value": "C"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "appliedProofRule": {
+                                                                        "appliedProofRuleName": "hyp",
+                                                                        "children": []
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

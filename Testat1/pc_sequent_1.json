@@ -1,0 +1,60 @@
+{
+    "moduleId": "PC",
+    "proofTree": {
+        "path": [],
+        "sequent": {
+            "hypotheses": [],
+            "goals": [
+                {
+                    "type": "InParentheses",
+                    "term": {
+                        "type": "Application",
+                        "left": {
+                            "type": "Application",
+                            "left": {
+                                "type": "Variable",
+                                "value": "⇒"
+                            },
+                            "right": {
+                                "type": "Variable",
+                                "value": "A"
+                            }
+                        },
+                        "right": {
+                            "type": "Variable",
+                            "value": "A"
+                        }
+                    }
+                }
+            ]
+        },
+        "appliedProofRule": {
+            "appliedProofRuleName": "⇒goal",
+            "children": [
+                {
+                    "path": [
+                        0
+                    ],
+                    "sequent": {
+                        "hypotheses": [
+                            {
+                                "type": "Variable",
+                                "value": "A"
+                            }
+                        ],
+                        "goals": [
+                            {
+                                "type": "Variable",
+                                "value": "A"
+                            }
+                        ]
+                    },
+                    "appliedProofRule": {
+                        "appliedProofRuleName": "hyp",
+                        "children": []
+                    }
+                }
+            ]
+        }
+    }
+}
